@@ -5,6 +5,14 @@
     --footer-them-color: #2F303A; 
     --footer-text-color: #ffffff;      
 }
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
 
 body{
     font-family: var(--main-font);
