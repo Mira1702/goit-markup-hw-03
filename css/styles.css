@@ -1,0 +1,232 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-colour: #2196F3; 
+    --footer-them-color: #2F303A; 
+    --footer-text-color: #ffffff;      
+}
+
+body{
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+.header-link{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 1.16;
+    color: #000000;
+}
+
+.link{
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+}
+
+.web{
+    color: #2196F3;
+}
+
+.navigation-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #212121;    
+}
+
+.navigation-mail,
+.navigation-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #757575;    
+}
+
+.navigation-link:hover,
+.navigation-mail:hover,
+.navigation-tel:hover,
+.navigation-link:focus,
+.navigation-mail:focus,
+.navigation-tel:focus {
+    color: #2196F3;
+}
+
+.social-link:hover,
+.social-link:focus {
+display: inline-block;
+width: 22px;
+height: 22px;
+background-color: var(--accent-colour);
+}
+
+.heading {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.37;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.button {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.89;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.subheading {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.text {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.head {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.desc {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+position: align="center";
+width: 370px;
+height: 70px;
+background: rgba(47, 48, 58, 0.8);
+}
+
+.team-names {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-names-prof {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.section-theme {
+background: #F5F4FA;
+}
+
+.footer-them-color {
+background-color: var(--footer-them-color);
+}
+
+.studio {
+color: #FFFFFF;;
+}
+
+.footer-text {
+color: var(--footer-text-color);    
+}
+
+.footer-text-item {
+text-transform: uppercase;
+}
+
+.portfolio-button {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background: F5F4FA;
+border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+background: #2196F3;
+color: #FFFFFF;
+}
+
+.portfolio-title {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-subtitle {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio-subtitle-hidden{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 1.57;
+letter-spacing: 0.03em;
+color: #212121;
+}
