@@ -12,35 +12,39 @@
 
   <body>
     <!-- Шапка страницы -->
-    <header>
-      <p>                
-        <a class="header-link link" href="./index.html" aria-label="Web Studio"><span class="web">Web</span> Studio</a>
-      </p>
-      <nav>            
-       <ul class="link">
-          <li> <a class="navigation-link link" href="./index.html">Студия</a> </li>
-          <li> <a class="navigation-link link" href="./portfolio.html">Портфолио</a> </li>
-          <li> <a class="navigation-link link" href="">Контакты</a> </li>        
-        </ul>    
-      </nav>
-        <ul class="link">
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+        <p>                
+         <a class="header-link link" href="./index.html" aria-label="Web Studio"><span class="web">Web</span> Studio</a>
+        </p>                    
+         <ul class="navigation-list link">
+          <li class="navigation-item"> <a class="navigation-link link" href="./index.html">Студия</a> </li>
+          <li class="navigation-item"> <a class="navigation-link link" href="./portfolio.html">Портфолио</a> </li>
+          <li class="navigation-item"> <a class="navigation-link link" href="">Контакты</a> </li>        
+         </ul>    
+        </nav>      
+       <div class="header-utils">
+        <ul class="address-link link">
           <li>
             <a class="navigation-mail link" href="E-mail:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
             <a class="navigation-tel link" href="tel:+380961111111">+380961111111</a>
           </li>
-        </ul>      
+        </ul> 
+       </div>
+      </div>     
     </header>
 
     <!-- Заголовок-->
-    <section>
+    <section class="section">
       <h1 class="heading">Эффективные решения<br />для вашего бизнеса</h1>
       <button type="button" class="button">Заказать услугу</button>
     </section>
 
     <!-- Особенности-->
-    <section>
+    <section class="section">
       <h2 hidden class="head">Особенности</h2>
       <ul class="link">
         <li>
@@ -78,7 +82,7 @@
     </section>
 
     <!--Чем мы занимаемся-->
-    <section>
+    <section class="section">
       <h2 class="head">Чем мы занимаемся</h2>
       <ul class="link">
         <li>          
@@ -97,7 +101,7 @@
     </section>
 
     <!--Наша команда-->
-    <section class="section-theme">
+    <section class="section section-theme">
       <h2 class="head">Наша команда</h2>
       <ul class="link">
         <li>
@@ -260,7 +264,7 @@
     </section>
 
     <!--Постоянные клиенты-->
-    <section>
+    <section class="section">
       <h2 class="head">Постоянные клиенты</h2>
       <ul class="link">
         <li>
@@ -314,7 +318,7 @@
       </ul>
     </section>
 
-    <footer class="footer-them-color">
+    <footer class="footer-them-color section">
       <!--Адрес-->
       <div class="footer-text">
         <a class="header-link link" href="./index.html" aria-label="Web Studio"> <span class="web">Web</span> <span class="studio">Studio</span></a>
