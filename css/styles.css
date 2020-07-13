@@ -85,7 +85,7 @@ line-height: 1.37;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #212121;
+color: #FFFFFF;
 }
 
 .button {
@@ -249,7 +249,11 @@ padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
 display: flex;
+}
 
+.header {
+padding-top: 25px;
+padding-bottom: 25px;
 }
 
 .navigation-list {
@@ -273,11 +277,33 @@ margin-right: 85px;
 display: flex;
 }
 
-.header-utils {
-margin-left: auto;
-}
 
 .header .container {
 align-items: center;
 justify-content: space-between;
 }
+
+.navigation-mail {
+margin-right: 30px;
+}
+
+.navigation-list {
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.navigation-item {
+display: block;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.section-title .container {
+display: flex;
+}
+
+.title-slider {
+background-color: black;
+flex-grow: 1;
+}
+
