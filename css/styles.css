@@ -47,7 +47,9 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.02em;
-color: #212121;      
+color: #212121;   
+padding-top: 32px;   
+padding-bottom: 32px;
 }
 
 .navigation-mail,
@@ -99,7 +101,7 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 border-radius: 4px;
 width: 200px;
 height: 50px;
@@ -201,13 +203,17 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
-display: flex;
+display: block;
 align-items: center;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
 background: F5F4FA;
 border-radius: 4px;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 22px;
+padding-right: 22px;
+border-color: F5F4FA;
 }
 
 .portfolio-button:hover,
@@ -289,6 +295,28 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.container-footer {
+width: 1200px;
+height: 370px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 94px;
+padding-bottom: 94px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items: baseline;
+}
+
+.container-portfolio {    
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+background-color: ;
+}
+
 .header {
 padding-top: 25px;
 padding-bottom: 25px;
@@ -332,15 +360,14 @@ padding-bottom: 25px;
 
 .navigation-item {
 display: block;
-padding-top: 25px;
-padding-bottom: 25px;
+
 }
 
 
 .heading {
 align-content: center;
 padding-top: 200px;
-
+margin-top: 0px;
 margin-bottom: 20px;
 }
 
@@ -450,9 +477,7 @@ padding-bottom: 24px;
 
 .client-list {
 display: flex;
-
 margin-bottom: 50px;
-
 }
 
 .head-client {
@@ -466,4 +491,66 @@ display: block;
 
 .client-list-item:not(:last-child) {
 margin-right: 30px;
+}
+
+.client-item {
+display: flex;
+width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+}
+
+.footer-address {
+width: 300px;
+padding-right: 69px;
+}
+
+.footer-logo {
+margin-bottom: 20px;
+display: flex;
+}
+
+.footer-link:not(:last-child) {
+display: flex;
+margin-bottom: 9px;
+}
+
+.footer-link {
+margin-right: 0px;
+}
+
+.footer-links {
+width: 300px;
+padding-right: 94px;
+}
+
+.footer-social-link {
+display: flex;
+justify-content: space-between;
+}
+
+.footer-text-item {
+display: flex;
+margin-bottom: 20px;
+}
+
+.portfolio-button-list {
+display: flex;
+margin-top: 93px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+justify-content: center
+}
+
+.portfolio-link-list {
+display: flex;
+}
+
+.portfolio-buttons:not(:last-child) {
+margin-right: 8px;
 }
