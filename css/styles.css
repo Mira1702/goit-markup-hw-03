@@ -87,7 +87,7 @@ line-height: 1.37;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: #212121;
 }
 
 .button {
@@ -370,7 +370,6 @@ padding-bottom: 25px;
 
 .navigation-item {
 display: block;
-
 }
 
 
